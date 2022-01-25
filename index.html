@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with IndexedDB API</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h2>Working with IndexedDB API</h2>
+    <form action="#">
+      <div>
+        <label for="name">Whiskey </label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="age">Years Old </label>
+        <input type="number" inputmode="numeric" id="age" />
+      </div>
+      <div>
+        <label for="country">Origin Country</label>
+        <input type="text" id="country" />
+      </div>
+      <div>
+        <label for="isOwned">Owned</label>
+        <input type="checkbox" id="isOwned" />
+      </div>
+      <div>
+        <button class="add">Add Whiskey</button>
+        <button class="delete">Delete Whiskey</button>
+        <button class="update">Update Whiskey</button>
+        <button class="clear">Clear</button>
+      </div>
+    </form>
+    <h2 title="Add the items first to see">Click the item below to edit</h2>
+    <div  class="list">
+      <!-- items will be displayed here -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #282c34;
+    color: white;
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+form {
+    width: 50%;
+    max-width: 600px;
+    border-bottom: 2px dashed purple;
+}
+
+/* button {
+ display: block;
+} */
+
+[type=checkbox] {
+    width: 24px;
+    height: 24px;
+}
+
+div  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input {
+    font-size: 1.4rem;
+    padding: 0.24rem 0.6rem;
+    color: green;
+}
+
+button {
+    padding: 0.23em 0;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin: 1rem 0;
+}
